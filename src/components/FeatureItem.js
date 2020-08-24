@@ -7,7 +7,7 @@ const FeatureItem = ({url, text}) => (
   <div className="features-slider_item">
     <div
       className="features-img"
-      style={{backgroundImage: url}}
+      style={{backgroundImage: `url(${url})`}}
     ></div>
     <div className="features-feature">{text}</div>
   </div>
